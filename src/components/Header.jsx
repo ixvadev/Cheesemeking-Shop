@@ -76,6 +76,21 @@ function Header() {
                 </div>
             </div>
         </div>
+
+        <div className='flex my-[20px] justify-between'>
+            <div className='flex gap-[20px] text-[14px]'>
+                <a href="">Рецепты</a>
+                <a href="">Доставка и оплата</a>
+                <a href="">Калькулятор Сыродела</a>
+                <a href="">Отзывы</a>
+                <a href="">Вопросы и ответы</a>
+                <a href="">Контакты</a>
+            </div>
+            <div className='flex'>
+                <img src="/src/assets/search-loupe.svg" alt="" />
+                <input for="default-search" type="text" placeholder="Введите название товара или артикул" />
+            </div>
+        </div>
     </div>
   )
 }
