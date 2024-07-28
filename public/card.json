@@ -1,0 +1,99 @@
+[
+    {
+      "name": "Форма для твердого сыра 1 кг",
+      "price": "1300₽",
+      "oldPrice": "1800₽",
+      "image": "./src/assets/form_for_hard_cheese.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Душистый перец горошком (100г)",
+      "price": "200₽",
+      "oldPrice": "320₽",
+      "image": "./src/assets/pepper_peas.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Красный перец молотый (100г)",
+      "price": "380₽",
+      "oldPrice": "400₽",
+      "image": "./src/assets/red_pepper.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Мускатный орех молотый (100г)",
+      "price": "420₽",
+      "oldPrice": "560₽",
+      "image": "./src/assets/nutmeg.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Форма для твердого сыра 1 кг",
+      "price": "1300₽",
+      "oldPrice": "1800₽",
+      "image": "./src/assets/form_for_hard_cheese.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Душистый перец горошком (100г)",
+      "price": "200₽",
+      "oldPrice": "320₽",
+      "image": "./src/assets/pepper_peas.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Красный перец молотый (100г)",
+      "price": "380₽",
+      "oldPrice": "400₽",
+      "image": "./src/assets/red_pepper.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Мускатный орех молотый (100г)",
+      "price": "420₽",
+      "oldPrice": "560₽",
+      "image": "./src/assets/nutmeg.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Форма для твердого сыра 1 кг",
+      "price": "1300₽",
+      "oldPrice": "1800₽",
+      "image": "./src/assets/form_for_hard_cheese.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Душистый перец горошком (100г)",
+      "price": "200₽",
+      "oldPrice": "320₽",
+      "image": "./src/assets/pepper_peas.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Красный перец молотый (100г)",
+      "price": "380₽",
+      "oldPrice": "400₽",
+      "image": "./src/assets/red_pepper.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    },
+    {
+      "name": "Мускатный орех молотый (100г)",
+      "price": "420₽",
+      "oldPrice": "560₽",
+      "image": "./src/assets/nutmeg.png",
+      "quantity": "1 шт.",
+      "buttonText": "Добавить"
+    }
+  ]
+  

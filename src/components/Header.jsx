@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='w-[1180px] h-[300px] m-auto'>
+    <div className=''>
         <div className='flex my-[20px] justify-between'>
             <div className='flex gap-[30px]'>
                 <div className='flex gap-[5px]'>
