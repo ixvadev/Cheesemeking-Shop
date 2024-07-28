@@ -25,14 +25,10 @@ function Header() {
             </div>
         </div>
 
-        <div className="flex items-center gap-[65px]">
+        <div className="flex items-center justify-between">
             <div className='flex'>
                 <div className="flex items-center">
                     <img src="/src/assets/logo.svg" alt="Logo" className="" />
-                    <div className="ml-[10px]">
-                        <p className="font-bold text-[#4E2D2D] text-[30px]">Преимущества</p>
-                        <p className='text-[#4E2D2D] text-[13px]'>Оборудование и товары для сыроделия</p>
-                    </div>
                 </div>
                 <div className="text-[13px] text-[#808080] flex gap-[20px] ml-3">
                     <div className="flex items-center space-x-2">
