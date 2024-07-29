@@ -1,45 +1,78 @@
-import React from 'react'
+import React from 'react';
 
 function Footer() {
   return (
-    <>
-        <div className='flex w-[1180px] h-[300px] m-auto'>
-            <div className='grid'>
-                <img src="/src/assets/Logo.svg" alt="" />
-                <a href="">Все материалы данного сайта <br /> являются объектами авторского <br /> права.</a>
-                <a href="">Разработка сайта: ЛяЧиз</a>
+    <div>
+      <footer className="bg-white py-8 text-[#292929]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap justify-between">
+            {/* Logo and Description */}
+            <div className="w-full md:w-1/4 mb-8 md:mb-0">
+              <div className="flex items-center mb-4">
+                <img src="../../public/svg/Logo.svg" alt="Logo"  />
+              </div>
+              <p >Все материалы данного сайта являются объектами авторского права.</p>
+              <p className="mt-4 ">Разработка сайта: ЛяЧиз</p>
             </div>
-            <div className='grid'> 
-                <p>Компания</p>
-                <a href="">О компании</a>
-                <a href="">Акции и скидки</a>
-                <a href="">Доставка и оплата</a>
-                <a href="">Отзывы</a>
-                <a href="">Гарантия и возврат</a>
+
+            {/* Company */}
+            <div className="w-full md:w-1/6 mb-8 md:mb-0">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Компания</h3>
+              <ul>
+                <li><a href="#" >О компании</a></li>
+                <li><a href="#" >Акции и скидки</a></li>
+                <li><a href="#" >Доставка и оплата</a></li>
+                <li><a href="#" >Отзывы</a></li>
+                <li><a href="#" >Гарантия и возврат</a></li>
+              </ul>
             </div>
-            <div className='grid'>
-                <p>Поддержка</p>
-                <a href="">Вопрос-ответ</a>
-                <a href="">Бонусная программа</a>
-                <a href="">Политика конфиденциальности</a>
-                <a href="">Персональные данных</a>
+
+            {/* Support */}
+            <div className="w-full md:w-1/6 mb-8 md:mb-0">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Поддержка</h3>
+              <ul>
+                <li><a href="#" >Вопрос-ответ</a></li>
+                <li><a href="#" >Бонусная программа</a></li>
+                <li><a href="#" >Политика конфиденциальности</a></li>
+                <li><a href="#" >Персональные данных</a></li>
+              </ul>
             </div>
-            <div className='grid'>
-                <p>Способы оплаты</p>
-                <div className='flex'>
-                    <img src="/src/assets/Ruble.svg" alt="" />
-                    <img src="/src/assets/Ruble.svg" alt="" />
-                    <img src="/src/assets/Sberbank.svg" alt="" />
-                    <img src="/src/assets/Yandex.svg" alt="" />
-                </div>
-                <div className='flex'>
-                    <img src="/src/assets/Mastercard.svg" alt="" />
-                    <img src="/src/assets/Visa.svg" alt="" />
-                </div>
+
+            {/* Payment Methods */}
+            <div className="w-full md:w-1/6 mb-8 md:mb-0 ">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Способы оплаты</h3>
+              <div className="flex flex-wrap gap-[10px]">
+                <img src="../../public/svg/Ruble.svg" alt=""  />
+                <img src="../../public/svg/Vector.svg" alt=""  />
+                <img src="../../public/svg/Sberbank.svg" alt=""  />
+                <img src="../../public/svg/Yandex.svg" alt=""  />
+              </div>
+              <div className='flex py-[10px] gap-[10px]'>
+                <img src="../../public/svg/Mastercard.svg" alt="" />
+                <img src="../../public/svg/Visa.svg" alt="" />
+              </div>
             </div>
+
+            {/* Contacts */}
+            <div className="w-full md:w-1/4">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Контакты</h3>
+              <p className="text-gray-900 font-bold mb-2">+7 495 120-00-00</p>
+              <p className=" mb-2">Пн-пт 9:00 - 19:00</p>
+
+              <p className=" mb-4">г. Москва, улица Свободы 1/7</p>
+              <div className="flex space-x-4">
+                <a href="#"><img src="../../public/svg/instagram.svg" alt="Instagram"/></a>
+                <a href="#"><img src="../../public/svg/vk.svg" alt="VK"/></a>
+                <a href="#"><img src="../../public/svg/twitter.svg" alt="Twitter"/></a>
+                <a href="#"><img src="../../public/svg/facebook.svg" alt="Facebook"/></a>
+                <a href="#"><img src="../../public/svg/youtube.svg" alt="YouTube"/></a>
+              </div>
+            </div>
+          </div>
         </div>
-    </>
-  )
+      </footer>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
