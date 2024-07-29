@@ -4,9 +4,11 @@
 
 body{
     background-color: #F4F0E6;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .contianer{
     width: 1180px;
     margin: auto;
 }
+
