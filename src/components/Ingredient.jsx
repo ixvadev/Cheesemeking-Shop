@@ -7,7 +7,7 @@ function Ingredient() {
             {/* <!-- Ingredients Section --> */}
             <div class="bg-yellow-100 rounded-lg mb-4">
                 <div class="flex gap-[5px] bg-[#FBE8BB] px-4 py-2 rounded-t-lg">
-                    <img src=".../../public/svg/cheese.logo.svg" alt="" />
+                    <img src="./src/assets/svg/cheese.logo.svg" alt="" />
                     <h2 class="font-semibold text-gray-700">Ингредиенты</h2>
                 </div>
                 <ul class="divide-y divide-gray-200">

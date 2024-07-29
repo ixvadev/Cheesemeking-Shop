@@ -9,7 +9,7 @@ function Footer() {
             {/* Logo and Description */}
             <div className="w-full md:w-1/4 mb-8 md:mb-0">
               <div className="flex items-center mb-4">
-                <img src="../../public/svg/Logo.svg" alt="Logo"  />
+                <img src="/src/assets/svg/Logo.svg" alt="Logo"  />
               </div>
               <p >Все материалы данного сайта являются объектами авторского права.</p>
               <p className="mt-4 ">Разработка сайта: ЛяЧиз</p>
@@ -42,14 +42,14 @@ function Footer() {
             <div className="w-full md:w-1/6 mb-8 md:mb-0 ">
               <h3 className="text-lg font-semibold text-gray-900 mb-4">Способы оплаты</h3>
               <div className="flex flex-wrap gap-[10px]">
-                <img src="../../public/svg/Ruble.svg" alt=""  />
-                <img src="../../public/svg/Vector.svg" alt=""  />
-                <img src="../../public/svg/Sberbank.svg" alt=""  />
-                <img src="../../public/svg/Yandex.svg" alt=""  />
+                <img src="/src/assets/svg/Ruble.svg" alt=""  />
+                <img src="/src/assets/svg/Vector.svg" alt=""  />
+                <img src="/src/assets/svg/Sberbank.svg" alt=""  />
+                <img src="/src/assets/svg/Yandex.svg" alt=""  />
               </div>
               <div className='flex py-[10px] gap-[10px]'>
-                <img src="../../public/svg/Mastercard.svg" alt="" />
-                <img src="../../public/svg/Visa.svg" alt="" />
+                <img src="/src/assets/svg/Mastercard.svg" alt="" />
+                <img src="/src/assets/svg/Visa.svg" alt="" />
               </div>
             </div>
 
@@ -61,11 +61,11 @@ function Footer() {
 
               <p className=" mb-4">г. Москва, улица Свободы 1/7</p>
               <div className="flex space-x-4">
-                <a href="#"><img src="../../public/svg/instagram.svg" alt="Instagram"/></a>
-                <a href="#"><img src="../../public/svg/vk.svg" alt="VK"/></a>
-                <a href="#"><img src="../../public/svg/twitter.svg" alt="Twitter"/></a>
-                <a href="#"><img src="../../public/svg/facebook.svg" alt="Facebook"/></a>
-                <a href="#"><img src="../../public/svg/youtube.svg" alt="YouTube"/></a>
+                <a href="#"><img src="/src/assets/svg/instagram.svg" alt="Instagram"/></a>
+                <a href="#"><img src="/src/assets/svg/vk.svg" alt="VK"/></a>
+                <a href="#"><img src="/src/assets/svg/twitter.svg" alt="Twitter"/></a>
+                <a href="#"><img src="/src/assets/svg/facebook.svg" alt="Facebook"/></a>
+                <a href="#"><img src="/src/assets/svg/youtube.svg" alt="YouTube"/></a>
               </div>
             </div>
           </div>
