@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Mashe() {
+function Preimu() {
   return (
-    <div className="bg-[url('/src/assets/svg/hero1.svg')]">
-        <div className=' '>
+    <div className="bg-[url('/src/assets/svg/Subtractback.svg')]">
+        <div className=''>
+          <img src="/src/assets/svg/Preimu.svg" alt="" />
             <div>
                 <p>Наши <br /> реимущества</p>
                 <p>Мы лично отвечаем за качество товара и всегда <br /> 
@@ -14,4 +15,4 @@ function Mashe() {
   )
 }
 
-export default Mashe
+export default Preimu
