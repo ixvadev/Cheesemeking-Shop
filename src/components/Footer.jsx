@@ -9,7 +9,7 @@ function Footer() {
             {/* Logo and Description */}
             <div className="w-full md:w-1/4 mb-8 md:mb-0">
               <div className="flex items-center mb-4">
-                <img src="/src/assets/svg/Logo.svg" alt="Logo" />
+                <img src="/src/assets/Footer svg/Logo.svg" alt="Logo" />
               </div>
               <p className="text-[#808080]">
                 Все материалы данного сайта являются объектами авторского права.
@@ -44,14 +44,14 @@ function Footer() {
             <div className="w-full md:w-1/6 mb-8 md:mb-0">
               <h3 className="text-lg font-semibold text-gray-900 mb-4">Способы оплаты</h3>
               <div className="flex gap-[10px]">
-                <img src="/src/assets/svg/Ruble.svg" alt="Ruble" />
-                <img src="/src/assets/svg/Vector.svg" alt="Vector" />
-                <img src="/src/assets/svg/Sberbank.svg" alt="Sberbank" />
-                <img src="/src/assets/svg/Yandex.svg" alt="Yandex" />
+                <img src="/src/assets/Footer svg/Ruble.svg" alt="Ruble" />
+                <img src="/src/assets/Footer svg/Vector.svg" alt="Vector" />
+                <img src="/src/assets/Footer svg/Sberbank.svg" alt="Sberbank" />
+                <img src="/src/assets/Footer svg/Yandex.svg" alt="Yandex" />
               </div>
               <div className="flex py-[10px] gap-[10px]">
-                <img src="/src/assets/svg/Mastercard.svg" alt="Mastercard" />
-                <img src="/src/assets/svg/Visa.svg" alt="Visa" />
+                <img src="/src/assets/Footer svg/Mastercard.svg" alt="Mastercard" />
+                <img src="/src/assets/Footer svg/Visa.svg" alt="Visa" />
               </div>
             </div>
 
@@ -63,13 +63,16 @@ function Footer() {
                 <img src="/src/assets/svg/alarm-clock-time-timer.2.svg" alt="Alarm Clock" />
                 <p className="ml-2">Пн-пт 9:00 - 19:00</p>
               </div>
-              <p>г. Москва, улица Свободы 1/7</p>
+              <div className='flex justify-end'>
+                <img src="/src/assets/Footer svg/footerlocation.svg" alt="" />
+                <p>г. Москва, улица Свободы 1/7</p>
+              </div>
               <div className="mt-[30px] flex space-x-10 justify-end">
-                <a href="#"><img className="" src="/src/assets/svg/instagram.svg" alt="Instagram" /></a>
-                <a href="#"><img className="" src="/src/assets/svg/vk.svg" alt="VK" /></a>
-                <a href="#"><img className="" src="/src/assets/svg/twitter.svg" alt="Twitter" /></a>
-                <a href="#"><img className="" src="/src/assets/svg/facebook.svg" alt="Facebook" /></a>
-                <a href="#"><img className="" src="/src/assets/svg/youtube.svg" alt="YouTube" /></a>
+                <a href="#"><img className="" src="/src/assets/Footer svg/instagram.svg" alt="Instagram" /></a>
+                <a href="#"><img className="" src="/src/assets/Footer svg/vk.svg" alt="VK" /></a>
+                <a href="#"><img className="" src="/src/assets/Footer svg/twitter.svg" alt="Twitter" /></a>
+                <a href="#"><img className="" src="/src/assets/Footer svg/facebook.svg" alt="Facebook" /></a>
+                <a href="#"><img className="" src="/src/assets/Footer svg/youtube.svg" alt="YouTube" /></a>
               </div>
             </div>
           </div>

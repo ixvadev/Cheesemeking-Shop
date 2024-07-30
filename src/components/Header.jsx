@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='contianer'>
-        <div className='flex my-[20px] justify-between'>
+    <div className=''>
+        <div className='contianer flex py-[20px] justify-between'>
             <div className='flex gap-[30px]'>
                 <div className='flex gap-[5px]'>
                     <img src="/src/assets/svg/location.svg" alt="" />
@@ -24,8 +24,8 @@ function Header() {
                 </div>
             </div>
         </div>
-
-        <div className="flex items-center justify-between">
+        <hr />
+        <div className="contianer py-[10px] flex items-center justify-between">
             <div className='flex'>
                 <div className="flex items-center">
                     <img src="/src/assets/svg/Logo.svg" alt="Logo"  />
@@ -58,7 +58,7 @@ function Header() {
                             <a href="tel:+8 916 460-19-60" className="text-[#4E2D2D] text-[16px] my-[10px] font-semibold">+8 916 460-19-60</a>
                             <div className='flex items-center border-[#FD9339] border-[1px] text-[#FD9339] rounded-md text-[12px] gap-[3px] px-[4px] '>
                                 <img src="/src/assets/svg/phonestele.svg" alt="Phone"  />
-                                <p className="leading-tight ">Заказать звонок</p>
+                                <p className="leading-tight">Заказать звонок</p>
                             </div>
                         </div>
                     </div>
@@ -72,9 +72,9 @@ function Header() {
                 </div>
             </div>
         </div>
-
-        <div className='flex my-[20px] justify-between'>
-            <div className='flex gap-[20px] text-[14px]'>
+        <hr />
+        <div className='contianer flex py-[10px] justify-between'>
+            <div className='flex items-center gap-[20px] text-[14px]'>
                 <a href="">Рецепты</a>
                 <a href="">Доставка и оплата</a>
                 <a href="">Калькулятор Сыродела</a>
@@ -83,10 +83,11 @@ function Header() {
                 <a href="">Контакты</a>
             </div>
             <div className='flex'>
-                <img src="/src/assets/svg/search-loupe.svg" alt="" />
-                <input for="default-search" type="text" placeholder="Введите название товара или артикул" />
+                <img className='absolute ml-[10px] mt-[6px]' src="/src/assets/svg/search-loupe.svg" alt="" />
+                <input type="search" id="default-search" class="block w-[300px] px-5 ps-10 py-2 text-sm bg-inherit outline-none rounded-lg border border-solid border-[#FD9339]" placeholder="Введите название товара или артикул" required />
             </div>
         </div>
+        <hr />
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='contianer'>
+    <div className='contianer py-[10px]'>
         <div className="flex gap-[5px]">
             <div className="w-[590px] h-[300px] pt-[25px] bg-[url('./src/assets/svg/hero1.svg')] pl-[25px] text-white">
                 <p className="text-[36px] font-bold">Наборы для сыроделия</p>

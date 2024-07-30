@@ -5,6 +5,7 @@ import Hero from './pages/Hero'
 import "@fontsource/ubuntu"; // Defaults to weight 400
 import "@fontsource/ubuntu/400.css"; // Specify weight
 import "@fontsource/ubuntu/400-italic.css"; // Specify weight and style
+// import Mashe from './pages/Mashe';
 // import Card from './components/Card';
 // import Ingredient from './components/Ingredient'
 
@@ -15,6 +16,7 @@ function App() {
     <>
       <Header/>
       <Hero/>
+      {/* <Mashe/> */}
       {/* <Card/> */}
       {/* <Ingredient/> */}
       <Footer/>
