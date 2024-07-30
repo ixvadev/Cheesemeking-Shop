@@ -3,40 +3,65 @@ import React from 'react'
 function Ingredient() {
   return (
     <div>
-        <div className="max-w-xs mx-auto mt-8">
-            {/* <!-- Ingredients Section --> */}
-            <div className="bg-yellow-100 rounded-lg mb-4">
-                <div className="flex gap-[5px] bg-[#FBE8BB] px-4 py-2 rounded-t-lg">
-                    <img src="./src/assets/svg/cheese.logo.svg" alt="" />
-                    <h2 className="font-semibold ">Ингредиенты</h2>
+        <div className='contianer py-[10px]'>
+            <div className=''>
+                <div className='flex items-center gap-[10px] bg-[#FBE8BB] w-[280px] h-[48px] pl-[10px] boder-[1px] border-[#FBE8BB]'>
+                    <img src=" src/assets/svg/cheese.logo.svg" alt="" className='h-8' />
+                    <p className='text-[18px] text-[#4E2D2D] font-bold'>Ингредиенты</p>
                 </div>
-                <ul className="divide-y divide-gray-200">
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Закваски для сыра</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Ферменты для сыра</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Хлористый кальций</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Плесень для сыра</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Кисломолочные закваски</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Красители для сыра</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Специи для сыра</a></li>
-                </ul>
+                <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                    <a href="" className='text-[#292929] text-[16px] '>Закваски для сыра</a>
+                    <img className='' src="/src/assets/svg/arrows-diagrams.svg" alt="" />
+                </div>
+                <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                    <a href="" className='text-[#292929] text-[16px] '>Ферменты для сыра</a>
+                    <img className='' src="/src/assets/svg/arrows-diagrams.svg" alt="" />
+                </div>
+                <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                    <a href="">Хлористый кальций</a>
+                </div>
+                <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                    <a href="" className='text-[#292929] text-[16px] '>Плесень для сыра</a>
+                    <img className='' src="/src/assets/svg/arrows-diagrams.svg" alt="" />
+                </div>
+                <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px]  border-[#E6E6E6]'>
+                    <a href="" className='text-[#292929] text-[16px] '>Кисломолочные закваски</a>
+                    <img className='' src="/src/assets/svg/arrows-diagrams.svg" alt="" />
+                </div>
+                <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                    <a href="" className='text-[#292929] text-[16px] '>Красители для сыра</a>
+                </div>
+                <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                    <a href="" className='text-[#292929] text-[16px] '>Специи для сыра</a>
+                    <img className='' src="/src/assets/svg/arrows-diagrams.svg" alt="" />
+                </div>
             </div>
+        </div>
 
-            {/* <!-- Equipment Section --> */}
-            <div className="bg-yellow-100 rounded-lg">
-                <div className="bg-yellow-200 px-4 py-2 rounded-t-lg flex">
-                    <img src="/src/assets/svg/cheese.logo.svg" alt="" />
-                    <h2 className="font-semibold ">Оборудование</h2>
-
-                </div>
-                <ul className="divide-y divide-gray-200">
-                    <li><a href="#" className="w-[280px] h-[48px] hover:bg-yellow-50">Формы для сыра</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Латексное покрытие</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Воск для сыра</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Термоусадочные пакеты</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Дренажные коврики</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Дренажные мешки и салфетки для прессования</a></li>
-                    <li><a href="#" className="block px-4 py-2  hover:bg-yellow-50">Дренажные контейнеры</a></li>
-                </ul>
+        <div className='contianer py-[10px]'> 
+            <div className='flex items-center gap-[10px] bg-[#FBE8BB] w-[280px] h-[48px] pl-[10px] boder-[1px] border-[#FBE8BB]'>
+                <img src="/src/assets/svg/cereal-logo.svg" alt="" className='h-8' />
+                <p className='text-[18px] text-[#4E2D2D] font-bold'>Оборудование</p>
+            </div>
+            <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                <a href="" className='text-[#292929] text-[16px] '>Формы для сыра</a>
+                <img className='' src="/src/assets/svg/arrows-diagrams.svg" alt="" />
+            </div>
+            <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                <a href="" className='text-[#292929] text-[16px] '>Латексное покрытие</a>
+            </div>
+            <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                <a href="" className='text-[#292929] text-[16px] '>Воск для сыра</a>
+            </div>
+            <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                <a href="" className='text-[#292929] text-[16px] '>Термоусадочные пакеты</a>
+                <img className='' src="/src/assets/svg/arrows-diagrams.svg" alt="" />
+            </div>
+            <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[60px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                <a href="" className='text-[#292929] text-[16px] '>Дренажные мешки и салфетки <br /> для прессования</a>
+            </div>
+            <div className='flex items-center justify-between gap-[10px] bg-[#FFFFFF] w-[280px] h-[48px] px-[10px] border-[1px] border-[#E6E6E6]'>
+                <a href="" className='text-[#292929] text-[16px] '>Дренажные контейнеры</a>
             </div>
         </div>
     </div>
