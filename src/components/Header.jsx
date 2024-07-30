@@ -84,7 +84,7 @@ function Header() {
             </div>
             <div className='flex'>
                 <img className='absolute ml-[10px] mt-[6px]' src="/src/assets/svg/search-loupe.svg" alt="" />
-                <input type="search" id="default-search" class="block w-[300px] px-5 ps-10 py-2 text-sm bg-inherit outline-none rounded-lg border border-solid border-[#FD9339]" placeholder="Введите название товара или артикул" required />
+                <input type="search" id="default-search" className="block w-[300px] px-5 ps-10 py-2 text-sm bg-inherit outline-none rounded-lg border border-solid border-[#FD9339]" placeholder="Введите название товара или артикул" required />
             </div>
         </div>
         <hr />
