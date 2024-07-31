@@ -9,6 +9,7 @@ import Card from "./components/Card";
 import "@fontsource/ubuntu";
 import "@fontsource/ubuntu/400.css";
 import "@fontsource/ubuntu/400-italic.css";
+import Delya from "./pages/Delya";
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -32,8 +33,9 @@ function App() {
       <Header />
       <Hero />
       <Ingredient />
-      <Preimu />
-      <Card cards={cards} isLoading={isLoading} />
+      {/* <Preimu /> */}
+      <Delya/>
+      {/* <Card cards={cards} isLoading={isLoading} /> */}
       <Footer />
     </>
   );
