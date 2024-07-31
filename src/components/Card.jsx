@@ -71,7 +71,7 @@ const Index = () => {
   ]
 
   return (
-    <div className="   bg-[#FFFBED] flex flex-wrap  gap-2">
+    <div className="py-[20px]  bg-[#FFFBED] flex flex-wrap  gap-2">
       {data.map((item) => (
         <div key={item.id}>
           <div className="w-[215px] h-[330px] bg-white border-[1px] border-[#E7E7E7] rounded-md">

@@ -3,7 +3,7 @@ import React from 'react'
 function Ingredient() {
   return (
     <div>
-        <div className=''>
+        <div className='py-[20px]'>
             <div className=''>
                 <div className='flex items-center gap-[10px] bg-[#FBE8BB] w-[280px] h-[48px] pl-[10px] boder-[1px] border-[#FBE8BB]'>
                     <img src=" src/assets/svg/cheese.logo.svg" alt="" className='h-8' />
