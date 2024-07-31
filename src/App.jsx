@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Hero from "./pages/Hero";
 import Ingredient from "./components/Ingredient";
-import Preimu from "./pages/Preimu";
+// import Preimu from "./pages/Preimu";
 import Card from "./components/Card";
 import "@fontsource/ubuntu";
 import "@fontsource/ubuntu/400.css";
 import "@fontsource/ubuntu/400-italic.css";
 import Delya from "./pages/Delya";
+import Cardinfo from "./components/Cardinfo";
+import Home from "./pages/Home";
+// import Login from "./components/Login";
+import Product_Available from './pages/Product_ Available'
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -30,13 +34,12 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Hero />
-      <Ingredient />
-      {/* <Preimu /> */}
-      <Delya/>
-      {/* <Card cards={cards} isLoading={isLoading} /> */}
-      <Footer />
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/available" element={<Product_Available/>}/>  
+      </Routes> 
+      <Footer/>    
     </>
   );
 }

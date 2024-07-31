@@ -3,7 +3,7 @@ import React from 'react'
 function Ingredient() {
   return (
     <div>
-        <div className='contianer py-[10px]'>
+        <div className=''>
             <div className=''>
                 <div className='flex items-center gap-[10px] bg-[#FBE8BB] w-[280px] h-[48px] pl-[10px] boder-[1px] border-[#FBE8BB]'>
                     <img src=" src/assets/svg/cheese.logo.svg" alt="" className='h-8' />
@@ -38,7 +38,7 @@ function Ingredient() {
             </div>
         </div>
 
-        <div className='contianer py-[10px]'> 
+        <div className='py-[10px]'> 
             <div className='flex items-center gap-[10px] bg-[#FBE8BB] w-[280px] h-[48px] pl-[10px] boder-[1px] border-[#FBE8BB]'>
                 <img src="/src/assets/svg/cereal-logo.svg" alt="" className='h-8' />
                 <p className='text-[18px] text-[#4E2D2D] font-bold'>Оборудование</p>
