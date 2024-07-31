@@ -85,7 +85,7 @@ const Index = () => {
                     <del className="text-[#FF4F4F] text-[14px]">{item.oldPrice}₽</del>
                 </div>
                 <div>
-                  <button className="text-white w-20 h-10 bg-[#FD9339] rounded-lg text-[14px]">Добавить</button>
+                  <button className="text-white w-20 h-10  bg-orange-500  hover:bg-[#FD9339] rounded-lg text-[14px]">Добавить</button>
                 </div>
               </div>
             </div>

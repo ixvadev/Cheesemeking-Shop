@@ -72,7 +72,7 @@ function Footer() {
                 <a href="#"><img className="" src="/src/assets/Footer svg/vk.svg" alt="VK" /></a>
                 <a href="#"><img className="" src="/src/assets/Footer svg/twitter.svg" alt="Twitter" /></a>
                 <a href="#"><img className="" src="/src/assets/Footer svg/facebook.svg" alt="Facebook" /></a>
-                <a href="#"><img className="" src="/src/assets/Footer svg/youtube.svg" alt="YouTube" /></a>
+                <a href="#"><img className="" src="https://github.com/noderjan/imglar/blob/main/img/assets/Footer%20svg/youtube.svg" alt="YouTube" /></a>
               </div>
             </div>
           </div>
