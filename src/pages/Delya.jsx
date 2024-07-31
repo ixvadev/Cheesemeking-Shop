@@ -3,7 +3,7 @@ import React from 'react'
 function Delya() {
   return (
     <div className='contianer'>
-      <div className='mt-[20px] mb-[10px]'>
+      <div className='m-[20px]'>
         <p className='text-[28px] text-[#4E2D2D] font-bold'>Мы подобрали для вас</p>
       </div>
       <div className='flex gap-[30px]'>

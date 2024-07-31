@@ -71,7 +71,7 @@ const Index = () => {
   ]
 
   return (
-    <div className="py-[20px]  bg-[#FFFBED] flex flex-wrap  gap-2">
+    <div className="py-[10px]  bg-[#FFFBED] flex flex-wrap  gap-2">
       {data.map((item) => (
         <div key={item.id}>
           <div className="w-[215px] h-[330px] bg-white border-[1px] border-[#E7E7E7] rounded-md">
@@ -85,7 +85,7 @@ const Index = () => {
                     <del className="text-[#FF4F4F] text-[14px]">{item.oldPrice}₽</del>
                 </div>
                 <div>
-                  <button className="text-white w-20 h-10 bg-[#FF4F4F] rounded-lg text-[14px]">Добавить</button>
+                  <button className="text-white w-20 h-10 bg-[#FD9339] rounded-lg text-[14px]">Добавить</button>
                 </div>
               </div>
             </div>
