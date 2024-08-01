@@ -1,5 +1,4 @@
 import React from 'react'
-import {telegram} from '../assets/images'
 
 function Header() {
   return (
@@ -49,7 +48,7 @@ function Header() {
 
             <div className="flex gap-[20px] items-center">
                 <div className="flex gap-[5px]">
-                    <img src={telegram} alt="Telegram"  />
+                    <img src='/src/assets/svg/Telegram.svg' alt="Telegram"  />
                     <img src="/src/assets/svg/WhatsUp.svg" alt="WhatsUp"  />
                     <img src="/src/assets/svg/Messenger.svg" alt="Messenger"  />
                 </div>
