@@ -1,6 +1,4 @@
 import React from 'react'
-export {cardinfo} from '../assets/Cardinfo/cardinfo.svg'
-
 function Cardinfo() {
   return (
     <div className=''>
@@ -15,7 +13,7 @@ function Cardinfo() {
         <div className='flex gap-[30px]'>
             <div className='w-[360px] h-[310px]'>
                 <div className='bg-[#ffffff]  rounded-[8px] my-[20px]'>
-                    <img src="cardinfo" alt="" className='m-auto' />
+                    <img src="/src/assets/Cardinfo/cardinfo.svg" alt="" className='m-auto' />
                     <div className='flex justify-center gap-[15px] py-[10px]'>
                         <img src="Cardinfo/info1" alt="" />
                         <img src="Cardinfo/info2" alt="" />
