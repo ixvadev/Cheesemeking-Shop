@@ -4,7 +4,7 @@ import Ingredient from '../components/Ingredient'
 import Card from '../components/Card'
 import Delya from './Delya'
 
-const Home = () => {
+const Home = ({addToCard}) => {
   return (
     <div>
         <div>
@@ -19,9 +19,9 @@ const Home = () => {
                     <a href="" className='text-[#FD9339] border-b-2 border-[#FD9339]'>Популярные товары </a>
                     <a href="">Акции</a>
                 </div>
-                <Card/>
+                <Card  addToCard={addToCard} />
                 <p className='text-[22px] text-[#4E2D2D] font-bold'>Оборудование</p>
-                <Card/>
+                <Card  addToCard={addToCard} />
             </div>
         </div>
         <img src="/src/assets/svg/Features.svg" alt="" className='' />
