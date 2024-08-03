@@ -1,6 +1,7 @@
 import React from 'react'
 import Ingredient from '../components/Ingredient'
 import Cardinfo from '../components/Cardinfo'
+import Tovar from '../components/Tovar'
 
 const Product1 = ({count,increment,decrement}) => {
   return (
@@ -11,6 +12,7 @@ const Product1 = ({count,increment,decrement}) => {
             </div>
             <div>
                 <Cardinfo count={count} increment={increment} decrement={decrement}/>
+                <Tovar/>
             </div>
         </div>
     </div>

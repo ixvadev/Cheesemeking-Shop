@@ -50,7 +50,7 @@ function App() {
   // }, []);
 
   return (
-    <>
+    <BrowserRouter>
       <Header length={card.length}/>
       <Routes>
         <Route path="/" element={<Home addToCard={addToCard} />}/>
@@ -60,7 +60,7 @@ function App() {
         <Route path="/*" element={<NotFound/>}/>
       </Routes> 
       <Footer/>    
-    </>
+    </BrowserRouter>
   );
 }
 

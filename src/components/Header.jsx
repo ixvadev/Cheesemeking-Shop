@@ -28,9 +28,11 @@ function Header({ length }) {
       <hr />
       <div className="contianer py-[10px] flex items-center justify-between">
         <div className="flex">
-          <div className="flex items-center">
-            <img src="/src/assets/svg/Logo.svg" alt="Logo" />
-          </div>
+          <Link to={"/"}>
+            <div className="flex items-center">
+              <img src="/src/assets/svg/Logo.svg" alt="Logo" />
+            </div>
+          </Link>
           <div className="text-[13px] text-[#808080] flex gap-[20px] ml-3">
             <div className="flex items-center space-x-2">
               <img
